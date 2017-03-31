@@ -53,10 +53,11 @@
 	      text-decoration: hidden;
 	    }
 	    ul.a {
-		    color:white;
-		    background-color: black;
-		   padding:1cm;
-		    opacity: 0.95;
+		    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 	    }
 	    img.a { 
 		    float: right;
@@ -94,8 +95,13 @@
 	    }
 	    
 	    li {
+		     display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 		    font-size: 16px;
-		    display: inline;
+		    border-right: 1px solid #bbb;
 	    }
 	    a {
 		    text-decoration: none;
@@ -114,10 +120,12 @@
 		    background-color: white;
 		    opacity:0.80;
 	    }
-	li:hover {
-    background-color: #555;
-    color: black;
+	li:hover:not(.active) {
+   background-color: #111;
 }
+	    .active {
+		    background-color: black;
+	    }
 	  
 	  </style>
   </head>

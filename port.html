@@ -26,11 +26,11 @@
 	       text-align: center;
       }
       ul.a {
-		    color:white;
-		    background-color: black;
-		   padding:10em;
-		    opacity: 0.95;
-	      list-style-type: none;
+		    list-style-type: none;
+    margin: 0;
+    padding: 0.6cm;
+    overflow: hidden;
+    background-color: black;
 	    }
 	    p {
 		   text-align: center;
@@ -57,9 +57,13 @@
 	    }
 	    
 	    li {
+		     display: inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 		    font-size: 16px;
-		    text-decoration: hidden;
-		    list-style-type: none;
+		    border-right: 1px solid #bbb;
 	    }
 	    a {
 		    text-decoration: none;
@@ -70,11 +74,13 @@
 		    color: white
 			    padding:1em;
 	    }  
-      li:hover {
+      li:hover:not (.active) {
     background-color: #555;
-    color: black;
-	      
+    color: black;	      
 }
+	    .active {
+		    background-color: black;
+	    }
 	  </style>
   </head>
   <body background="http://www.mundointerpessoal.com/wp-content/uploads/2013/05/Universo.jpg"> 

@@ -60,7 +60,7 @@ li {
     float: center;
 }
 #cool {
-display: inline-block;
+display: inline;
 }
 
 li a, .dropbtn {

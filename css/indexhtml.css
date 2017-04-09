@@ -57,10 +57,7 @@ ul.a {
 }
 
 li {
-    float: center;
-}
-#cool {
-display: inline;
+    float: left;
 }
 
 li a, .dropbtn {

@@ -59,6 +59,9 @@ ul.a {
 li {
     float: center;
 }
+#cool {
+display: inline-block;
+}
 
 li a, .dropbtn {
     display: inline-block;

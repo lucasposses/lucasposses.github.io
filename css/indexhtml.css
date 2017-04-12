@@ -18,6 +18,7 @@ p.a {
         font-family: serif;
         color: white;
        background-image: url("http://www.mundointerpessoal.com/wp-content/uploads/2013/05/Universo.jpg");
+	      background-color:black;
         padding: 2cm;
 		text-align: center;
 	      font-size: 50px;
@@ -171,3 +172,6 @@ li.dropdown {
 		    background-color:white;
             text-align: center;
 	    }
+#hob {
+	text-align: center;
+}

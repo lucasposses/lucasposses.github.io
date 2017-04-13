@@ -1,10 +1,28 @@
-h1 { 
+p.a {
+      padding: 3cm;
+        color: black;
+        text-align: left;
+        background-color:white;
+	z-index: 2;
+	      font-size: 20px;
+      }
+	    p.b {
+		    padding: 2cm ;
+		    color: black;
+		    text-align: center;
+		    background-color: white;
+			
+	    }
+			    
+      h1 { 
         font-family: serif;
         color: white;
-       background-image: url("http://www.mundointerpessoal.com/wp-content/uploads/2013/05/Universo.jpg");
+	      background-color:black;
         padding: 2cm;
 		text-align: center;
-	      font-size: 50px;	
+	      font-size: 50px;
+	      
+		
       }
       h2 {
         color:black;
@@ -12,20 +30,87 @@ h1 {
         text-align: center;
 	       background-color: white;
 	      padding: 0.5cm;
-	      opacity: 0.80;        
+	      opacity: 0.80;
+        
       }
       body {
         font-family: "Arial", "Helvetica", sans-serif;
        background-repeat:repeat;
 	       text-align: center;
       }
-      ul.a {
-		    list-style-type: none;
+      ul {
+        text-align: center;
+        color:black;
+	       background-color: white;
+	      opacity: 0.90;
+	      list-style-type: none;
+	      padding: 0.75cm;
+	      text-decoration: hidden;
+	    }
+
+ul.a {
+    list-style-type: none;
     margin: 0;
-    padding: 0.6cm;
+    padding: 0;
     overflow: hidden;
     background-color: black;
-	      opacity: 0.95;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	overflow: visible;
+	
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:#800080;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+	overflow:visible;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #C0C0C0}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+	    img.a { 
+		    float: right;
+		    border: 5px solid black;
+	    }
+	    p.c {
+		    text-align: center;
+        color:black;
+	       background-color: white;
+	      padding: 2cm;
+	      opacity: 0.80;
 	    }
 	    p {
 		   text-align: center;
@@ -40,8 +125,9 @@ h1 {
 		    color: black;
 		    text-align: center;
 		    background-color: white;
-		    overflow: hidden;
+		    overflow: none;
 		    background-image: url("http://www.mundointerpessoal.com/wp-content/uploads/2013/05/Universo.jpg");
+		    z-index: 1;
 	    }
 	    footer {
 		    padding: 1em;
@@ -51,15 +137,15 @@ h1 {
 		background-image: url("http://www.mundointerpessoal.com/wp-content/uploads/2013/05/Universo.jpg");    
 	    }
 	    
-	    li {
+	    li.b {
 		     display: inline;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 		    font-size: 16px;
-		    border-right: 1px solid #bbb;
-	    }
+		    border-right: 1px solid #bbb;   
+	    }	    
 	    a {
 		    text-decoration: none;
 		    color: white;
@@ -68,8 +154,23 @@ h1 {
 	    header {
 		    color: white
 			    padding:1em;
-	    }  
-      li:hover {
-    background-color: #111;
-    color: black;	      
+	    }
+	    iframe {
+		    opacity: none;
+		    overflow: none;
+	    }
+	    div.b {
+		    background-color: white;
+		    opacity:0.80;
+	    }
+	    .active {
+		    background-color: black;
+	    }
+	    #lista {
+		    border-right: none;
+		    background-color:white;
+            text-align: center;
+	    }
+#hob {
+	text-align: center;
 }

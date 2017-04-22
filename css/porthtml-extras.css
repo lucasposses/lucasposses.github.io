@@ -6,7 +6,6 @@ overflow:hidden;
 ul.second {
 	padding: 0.1cm 0.5cm 13.5cm 1cm;
     background-color: black;
-    float: left;
     color:white;
     text-align: left;
 	overflow: visible;

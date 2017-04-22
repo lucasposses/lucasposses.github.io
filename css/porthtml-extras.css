@@ -3,12 +3,16 @@ div.second-list {
 	background-color: black;
 	color:white;
 	text-align: left;
-	float: left;
 	overflow: visible;
 }
 ul.second {
+	padding: 1cm 0.5cm 50cm 4cm;
+    background-color: black;
+    float: left;
+    color:white;
+    text-align: left;	
 }
-li.materias {
+li.materias {	
 }
 div.port {
 	background-color: white;

@@ -6,7 +6,7 @@ ul.second {
     color:white;
     text-align: left;
 	overflow: visible;
- position: absolute;
+
 }
 li.materias {
 }
@@ -21,6 +21,8 @@ p.a {
         background-color:white;
 	z-index: 2;
 	      font-size: 20px;
+	height: 20cm;
+    width: 80%;
       }
 	    p.b {
 		    padding: 2cm ;

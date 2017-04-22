@@ -19,7 +19,6 @@ p.a {
         color: black;
         text-align: left;
         background-color:white;
-	z-index: 2;
 	      font-size: 20px;
 	height: 20cm;
     width: 80%;
@@ -47,8 +46,6 @@ p.a {
         font-family: sans-serif;    
         text-align: center;
 	       background-color: white;
-	      height: 50px;
-		      width: 40%;
 	      opacity: 0.80;
         
       }
@@ -143,9 +140,6 @@ li.dropdown {
 		    text-align: center;
 		    background-color: white;
 		    background-image: url("http://www.mundointerpessoal.com/wp-content/uploads/2013/05/Universo.jpg");
-		    z-index: 1;
-		    height: 20cm;
-    width: 80%;
 	    }
 	    footer {
 		    padding: 1em;

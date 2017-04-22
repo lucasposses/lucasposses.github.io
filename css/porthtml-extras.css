@@ -1,8 +1,5 @@
 div.second-list {
 }
-p.trab {
-overflow:hidden;
-}
 ul.second {
 	padding: 0.1cm 0.5cm 13.5cm 1cm;
     background-color: black;
@@ -48,7 +45,8 @@ p.a {
         font-family: sans-serif;    
         text-align: center;
 	       background-color: white;
-	      
+	      height: 50px;
+		      width: 40%;
 	      opacity: 0.80;
         
       }

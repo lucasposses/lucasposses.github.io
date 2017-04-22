@@ -1,5 +1,15 @@
 div.second-list {
 }
+p.trab {
+	height: 100px;
+    width: 70%;
+	background-color: white;
+}
+div.trab {
+	height: 100px;
+    width: 70%;
+	background-color: white;
+}
 ul.second {
 	padding: 0.1cm 0.5cm 13.5cm 1cm;
     background-color: black;

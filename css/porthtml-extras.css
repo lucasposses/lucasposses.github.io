@@ -1,13 +1,16 @@
 div.second-list {
-	padding: 20px;
+}
+p.trab {
+overflow:hidden;
 }
 ul.second {
-	padding: 1cm 0.5cm 10cm 4cm;
+	padding: 0.1cm 0.5cm 13.5cm 1cm;
     background-color: black;
     float: left;
     color:white;
     text-align: left;
 	overflow: visible;
+ position: absolute;
 }
 li.materias {
 }
@@ -46,7 +49,7 @@ p.a {
         font-family: sans-serif;    
         text-align: center;
 	       background-color: white;
-	      padding: 0.5cm;
+	      
 	      opacity: 0.80;
         
       }
@@ -68,7 +71,7 @@ p.a {
 ul.a {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0.6cm;
     overflow: visible;
     background-color: black;
 }

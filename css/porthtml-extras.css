@@ -1,6 +1,5 @@
 div.second-list {
 	padding: 20px;
-	overflow: visible;
 }
 ul.second {
 	padding: 1cm 0.5cm 25cm 4cm;
@@ -8,12 +7,9 @@ ul.second {
     float: left;
     color:white;
     text-align: left;
-	overflow: hidden;
-	width:100%;
-		height:100%;
+	overflow: visible;
 }
 li.materias {
-	display: none;
 }
 div.port {
 	background-color: white;

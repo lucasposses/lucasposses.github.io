@@ -1,3 +1,15 @@
+div.second-list {
+	padding: 20px;
+	background-color: black;
+	color:white;
+	text-align: left;
+	float: left;
+	overflow: visible;
+}
+ul.second {
+}
+li.materias {
+}
 div.port {
 	background-color: white;
 	opacity:0.90;

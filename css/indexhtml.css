@@ -1,17 +1,12 @@
 p.a {
       padding: 3cm;
         color: black;
-        text-align: left;
-        background-color:white;
-	z-index: 2;
 	      font-size: 20px;
       }
 	    p.b {
 		    padding: 2cm ;
 		    color: black;
-		    text-align: center;
-		    background-color: white;
-			
+		    text-align: center;		
 	    }
 			    
       h1 { 

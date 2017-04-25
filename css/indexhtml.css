@@ -71,7 +71,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
     display: inline-block;
-    float: center;
+    float: left;
 }
 
 .dropdown-content {

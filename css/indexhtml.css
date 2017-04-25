@@ -1,4 +1,4 @@
-p.a {
+      p.a {
           padding: 3cm;
         color: black;
 	      font-size: 20px;
@@ -43,13 +43,14 @@ p.a {
 	      list-style-type: none;
 	      padding: 0.75cm;
 	      text-decoration: hidden;
-          float:left;
+          float:center;
 }
 
 ul.a {
     list-style-type: none;
     padding: 1cm;
     background-color: black;
+    float: center;
 }
 
 
@@ -59,16 +60,20 @@ li a, .dropbtn {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	overflow: visible;	
+    overflow: visible;
+    float: center;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
     background-color:#800080;
 }
+li {
+float: left;
+}
 
 li.dropdown {
     display: inline-block;
-    float: left;
+    float:center;
 }
 
 .dropdown-content {
@@ -79,6 +84,8 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 3;
 	overflow:visible;
+    float: left;
+    text-align:left;
 }
 
 .dropdown-content a {
@@ -166,5 +173,5 @@ li.dropdown {
 	    }
 #hob {
 	text-align: center;
-}
+
     

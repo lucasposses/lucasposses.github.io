@@ -1,14 +1,4 @@
-.jogo{
-overflow:hidden;
-margin: 25px;
-border-image: url(Images/Barraum.png) 1 stretch;
-width: 780px;
-border-width: 5px;
-float: left;
-}
-div.Jogo > iframe{
-width: 100%;
-}
+
 div.second-list {
 }
 ul.second {

@@ -1,12 +1,9 @@
 
-div.second-list {
-}
 ul.second {
 	padding: 0.1cm 0.5cm 1cm 1cm;
     background-color: black;
     color:white;
     text-align: right;
-	overflow: visible;
 
 }
 li.materias {
@@ -14,7 +11,6 @@ li.materias {
 }
 div.port {
 	background-color: white;
-	opacity:0.90;
 }
 p.a {
       padding: 3cm;

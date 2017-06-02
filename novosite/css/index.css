@@ -6,7 +6,7 @@ body {
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 {
-	  color: black;
+	  color: #fffcfc;
       background-image: url("https://media.giphy.com/media/3oEduPff5ErjNmlbwY/giphy.gif")    
   }
   .bg-2 { 

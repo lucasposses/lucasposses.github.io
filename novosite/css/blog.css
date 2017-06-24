@@ -6,8 +6,20 @@
   h3 {
   font-size:32px;
   }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
+h3.car {
+	color:2f2f2f;
+	font-size:32px;
+}
+  p {
+	  font-size: 16px;
+}
+p.car {
+	color:2f2f2f;
+	font-size:15px;
+}
+  .margin {
+	  margin-bottom: 45px;
+}
   .bg-1 {
 	  color: #fffcfc;
       background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRor74IK3hHAQ7ctZM5EWM0BUMZ4HJX58FBltZ-NP0GMbLs3Bg")    
